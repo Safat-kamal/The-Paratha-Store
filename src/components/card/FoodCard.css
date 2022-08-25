@@ -1,0 +1,14 @@
+.foodcard{
+    margin: 20px auto;
+    box-shadow: 2px 2px 4px 2px thistle !important;
+}
+
+.food-card-image {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+#addCartBUtton{
+    font-weight: 700;
+}

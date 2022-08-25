@@ -1,0 +1,14 @@
+.container{
+    width: 90%;
+    margin: 50px auto;
+}
+.container >h2{
+    color: orangered;
+    font-weight: 900;
+    font-size: 1.8em;
+    margin-left: 20px;
+}
+.cards{
+    margin: 30px 20px;
+    display: flex;
+}
