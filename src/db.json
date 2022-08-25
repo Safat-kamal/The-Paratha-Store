@@ -1,0 +1,94 @@
+{
+    "Dishes":[
+        {
+            "id":1,
+            "dish":"Plain paratha + Yogurt",
+            "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/crebbuhv57vaw3rf1mqp",
+            "price":40,
+            "addons":["Extra Sauce"]
+        },
+        {
+            "id":2,
+            "dish":"Aalo Paratha",
+            "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/livosycxkqebocsfwl1f",
+            "price":50,
+            "addons":["Extra Sauce","Yogurt", "Cheese"]
+        },
+        {
+            "id":3,
+            "dish":"Veg Paratha",
+            "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/o97bqlo8mq16l3av8eaw",
+            "price":50,
+            "addons":["Corn", "Cabbage", "Fenugreek", "Cheese"]
+        },
+        {
+            "id":4,
+            "dish":"Double Cheese Paratha",
+            "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/jk60tyoeayq83c4nmdea",
+            "price":70,
+            "addons":["Extra Sauce","Yogurt", "Corn"]
+        },
+        {
+            "id":5,
+            "dish":"Corn Cheese Paratha",
+            "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/s47ipqgwhhrpybi4gyeh",
+            "price":80,
+            "addons":["Extra Sauce","Yogurt", "Corn"]
+        }
+    ],
+    "Addons":[
+        {
+            "id":1,
+            "addOne":"Extra Sauce",
+            "price":5
+        },
+        {
+            "id":2,
+            "addOne":"Yogurt",
+            "price":15
+        },
+        {
+            "id":3,
+            "addOne":"Corn",
+            "price":10
+        },
+        {
+            "id":4,
+            "addOne":"Cabbage",
+            "price":15
+        },
+        {
+            "id":5,
+            "addOne":"Fenugreek",
+            "price":10
+        },
+        {
+            "id":6,
+            "addOne":"Extra Cheese",
+            "price":20
+        }
+    ],
+    "Delivery Range":[
+        {
+            "id":1,
+            "range":"Upto 5 km",
+            "price":"NA"
+        },
+        {
+            "id":2,
+            "range":"5-8 km",
+            "price":15
+        },
+        {
+            "id":3,
+            "range":"9-15 km",
+            "price":25
+        },
+        {
+            "id":4,
+            "range":"Above 15 km",
+            "price":40
+        }
+
+    ]
+}
