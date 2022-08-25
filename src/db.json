@@ -68,7 +68,7 @@
             "price":20
         }
     ],
-    "Delivery Range":[
+    "DeliveryRange":[
         {
             "id":1,
             "range":"Upto 5 km",

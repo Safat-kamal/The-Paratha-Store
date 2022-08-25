@@ -1,12 +1,13 @@
 .foodcard{
     margin: 20px auto;
     box-shadow: 2px 2px 4px 2px thistle !important;
+    max-height: 430px;
 }
 
 .food-card-image {
-    height: 100%;
+    min-height: 250px;
+    max-height: 250px;
     object-fit: cover;
-    width: 100%;
 }
 
 #addCartBUtton{
