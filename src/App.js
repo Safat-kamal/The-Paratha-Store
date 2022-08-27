@@ -1,10 +1,17 @@
 import './App.css';
 import HomePage from './pages/HomePage';
+import CartPage from './pages/CartPage';
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-     <HomePage/>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<HomePage/>}/>
+          <Route exact path="/cart" element={<CartPage/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }
