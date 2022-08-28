@@ -1,11 +1,8 @@
 import React from 'react';
 import './OrderItemRow.css';
-import { useCartContextValue } from '../../context/CartProvider';
 
 
-const OrderItemRow = ({ id, dish, image, quantity, price, addonsTotal }) => {
-    const [, dispatch] = useCartContextValue();
-
+const OrderItemRow = ({ dish, image, quantity, price, addonsTotal }) => {
     return (
         <>
             <div className='item__row'>

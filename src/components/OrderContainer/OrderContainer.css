@@ -4,6 +4,14 @@
     display: flex;
     padding:40px 15px;
 }
+#distance_opttion{
+    padding: 7px;
+    background-color: navy;
+    color: #fff;
+    font-size: 1em;
+    width: 35%;
+    margin: 10px 0;
+}
 #Order_title{
     margin:20px 0;
     font-size: 1.5em; 
