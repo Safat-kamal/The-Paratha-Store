@@ -40,7 +40,7 @@ const FoodCard = ({ id, image, dish, price, addons }) => {
                     alt={dish}
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
+                    <Typography gutterBottom variant="h5" component="div" className="food_title">
                         {dish}
                     </Typography>
                     <Typography gutterBottom variant="p" component="div">

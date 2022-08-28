@@ -15,7 +15,6 @@ const Header = () => {
         </NavLink>
       <div className="header__right">
         <div className="header__rightChild">
-            <span style={{cursor:"pointer"}}>Sign In/Sign Up </span>
         </div>
         <div className="header__rightChild">
             <Link to="/cart">

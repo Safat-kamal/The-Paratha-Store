@@ -12,3 +12,19 @@
     margin: 30px 20px;
     display: flex;
 }
+@media  screen and (max-width:630px){
+    .container >h2{
+        color: orangered;
+        font-weight: 900;
+        font-size: 1.4em;
+        margin-left: 10px;
+    }
+}
+@media  screen and (max-width:480px){
+    .container >h2{
+        color: orangered;
+        font-weight: 900;
+        font-size: 1.2em;
+        margin-left: 0px;
+    }
+}

@@ -92,3 +92,43 @@
     background-color: lightcoral;
     cursor: default;
 }
+@media screen and (max-width:991px){
+    #Order_title{
+        margin:20px 0;
+        font-size: 1.5em; 
+        border-bottom: 1px solid rgb(223, 220, 220);
+        padding: 10px 0;
+        text-align: center;
+    }
+    #distance_opttion{
+        padding: 12px 7px;
+        background-color: navy;
+        color: #fff;
+        font-size: 0.85em;
+        width: 100%;
+        margin: 10px 0;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width:540px){
+    #Order_title{
+        margin:20px 0;
+        font-size: 1.1em !important; 
+        border-bottom: 1px solid rgb(223, 220, 220);
+        padding: 10px 0;
+        text-align: center;
+    }
+    #distance_opttion{
+        padding: 12px 7px;
+        background-color: navy;
+        color: #fff;
+        font-size: 0.85em;
+        width: 100%;
+        margin: 10px 0;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+}

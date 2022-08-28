@@ -87,12 +87,12 @@ const CartItemRow = ({ id, dish, image, quantity, price, addons }) => {
                     <IconButton onClick={qunatityIncrement}><AddBoxIcon /></IconButton>
                 </div>
                 <div className="item_description_lastdescription">
-                <FormGroup className='addon_container'>
-                    {addons?.map((addon,index)=>{
-                        return (<FormControlLabel key={index} control={<Checkbox color='success' onChange={handleAddOnChange} value={addon}/>} label={addon}/>)
-                        })
-                    }
-                </FormGroup>
+                    <FormGroup className='addon_container'>
+                        {addons?.map((addon,index)=>{
+                            return (<FormControlLabel key={index} control={<Checkbox color='success' onChange={handleAddOnChange} value={addon}/>} label={addon}/>)
+                            })
+                        }
+                    </FormGroup>
                     <button onClick={remove_from_cart} className="removeItem"><DeleteForeverIcon /> Remove</button>
                 </div>
             </div>

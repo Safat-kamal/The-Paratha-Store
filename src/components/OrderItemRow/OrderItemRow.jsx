@@ -6,7 +6,10 @@ const OrderItemRow = ({ dish, image, quantity, price, addonsTotal }) => {
     return (
         <>
             <div className='item__row'>
-                <span className="order_quantity">{quantity} x </span><img src={image} className="item_image" alt={dish} />
+                <div className="left_side_checkout">
+                    <span className="order_quantity">{quantity} x </span>
+                    <img src={image} className="item_image" alt={dish} />
+                </div>
                 <div className='item_description'>
                     <div className="item_description_price">
                         <p className='item_name'>{dish}</p>

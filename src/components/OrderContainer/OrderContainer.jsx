@@ -34,9 +34,7 @@ const OrderContainer = () => {
             }
         }
     }
-    console.log(deliveryTotal);
-
-
+    
     return (
         <div id="OrderPage">
             <div className="OrderContainer">

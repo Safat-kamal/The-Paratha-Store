@@ -80,3 +80,42 @@
 .removeItem:active{
     background-color: darkred;
 }
+@media  screen and (max-width:580px){
+    #cart_title{
+        margin:15px 0;
+        font-size: 1.2em; 
+        border-bottom: 1px solid rgb(223, 220, 220);
+        padding: 10px 0;
+    }
+    .item__row{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(223, 220, 220);
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .item_image{
+        width: 100% !important; 
+        max-height: 100% !important;
+        border-radius: 7px;
+        margin-left: 0px !important;
+    }
+    .item_description{
+        margin-left: 5px !important;
+        margin-top: 8px !important;
+        width: 100%;
+    }
+}
+@media  screen and (max-width:580px){
+    .item_description_lastdescription{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    } 
+    .removeItem{
+        justify-content: center;
+        align-items: center;
+    }
+}

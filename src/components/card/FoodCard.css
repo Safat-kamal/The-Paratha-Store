@@ -13,3 +13,14 @@
 [data-id="addCartBUtton"]{
     font-weight: 700;
 }
+@media screen and (max-width:780px){
+    .food_title{
+        font-size: 1.3em !important;
+    }
+}
+@media screen and (max-width:550px){
+    [data-id="addCartBUtton"]{
+        font-weight: 700;
+        font-size: 0.89em;
+    }
+}

@@ -60,3 +60,24 @@ a{
     color: navy;
     font-weight: 700;
 }
+@media screen and (max-width:600px){
+    .header__left >p{
+        padding: 5px 8px 0px 5px;
+        font-size: 1em;
+        font-weight: 600;
+    }   
+    .header__center p{
+        text-align: right !important;
+        margin-right: 30px;
+        font-weight: bold;
+        font-size: 1em;
+    }  
+}
+@media screen and (max-width:440px){
+    .header__center p{
+        text-align: right !important;
+        margin-right: 0px;
+        font-weight: bold;
+        font-size: 1em;
+    }  
+}
