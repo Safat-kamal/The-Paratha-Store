@@ -1,0 +1,59 @@
+.item__row{
+    display: flex;
+    border-bottom: 1px solid rgb(223, 220, 220);
+    padding: 10px 20px;
+}
+.order_quantity{
+    font-size: 1.05em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+.item_image{
+    width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+.item_description{
+    margin-left: 20px;
+    flex: 1;
+}
+.item_description_price{
+    display: flex;
+    justify-content: space-between;
+}
+.item_description_price p:last-child{
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #555;
+}
+.item_name{
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+.item_addonTotal_price{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+    color: #555;
+    padding: 8px 0;
+    font-size: 0.9em;
+}
+.item_Total{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: 800;
+    font-size: 1em;
+    border-top: 1px solid rgb(189, 22, 22);
+    border-bottom: 1px solid rgb(189, 22, 22);
+    padding: 5px 2px 0 0;
+}
+
+
