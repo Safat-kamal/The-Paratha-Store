@@ -4,7 +4,7 @@
     align-items: center;
     background-color: #eee;
     color: navy;
-    padding: 10px 40px;
+    padding: 15px 40px;
     position: sticky;
     top:0;
     z-index: 400;
@@ -15,10 +15,11 @@
     font-size: 1.4em;
     font-weight: 600;
 }
-.header__center{
-    display: flex;
-    flex: 1;
-    margin: 0 50px;
+.header__center p{
+    text-align: center;
+    margin-right: 120px;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 #search{
     width: 70%;

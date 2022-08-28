@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './FoodCard.css';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -9,21 +9,25 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 import { useCartContextValue } from '../../context/CartProvider';
 
 
-const FoodCard = ({ id, image, dish, price }) => {
+const FoodCard = ({ id, image, dish, price, addons }) => {
     const [,dispath] = useCartContextValue();
-
-    const addToCart = ()=>{
+    const [itemAdded,setItemAdded] = useState(false);
+    
+    const addToCart = (e)=>{
+        setItemAdded(true);
         dispath({
-          type:'ADD_TO_CART',
-          item:{
-            id:id,
-            image:image,
-            dish:dish,
-            quantity:1,
-            price:price
-          }  
-        });
-        alert(`${dish} added in the cart`);
+            type:'ADD_TO_CART',
+            item:{
+              id:id,
+              image:image,
+              dish:dish,
+              quantity:1,
+              price:price,
+              addons:addons,
+              selectedAddons:[],
+              AddonTotalPrice:0
+            }  
+          });
     }
 
     return (
@@ -45,10 +49,9 @@ const FoodCard = ({ id, image, dish, price }) => {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button style={{ flex: 1, }} variant="outlined" startIcon={<AddIcon />} onClick={addToCart}>
-                <span id="addCartBUtton">Add To Cart</span>
-            </Button>
-
+                <Button style={{ flex: 1, }} variant="outlined" startIcon={<AddIcon />} onClick={addToCart} disabled={itemAdded}>
+                    <span id={id} data-id="addCartBUtton">{itemAdded ? 'ADDED':'Add To Cart'}</span>
+                </Button>
         </CardActions>
         </Card >
     )

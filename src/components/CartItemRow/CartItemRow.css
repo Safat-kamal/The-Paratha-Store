@@ -1,0 +1,92 @@
+.item__row{
+    display: flex;
+    border-bottom: 1px solid rgb(223, 220, 220);
+    padding: 10px 20px;
+}
+.item_image{
+    width: 130px;
+    max-height: 130px;
+    object-fit: contain;
+    border-radius: 7px;
+}
+.item_description{
+    margin-left: 20px;
+    flex: 1;
+}
+.item_description_upperdescription{
+    display: flex;
+    justify-content: space-between;
+}
+.item_description_upperdescription p:last-child{
+    font-weight: 700;
+    margin-left: 10px;
+}
+.item_name{
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+.item_quantity_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3px;
+}
+.item_description_lastdescription{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.item_quantity{
+    outline: none;
+    max-width: 30px;
+    color: navy;
+    font-weight: 600;
+    border: none;
+    margin: 0 10px;
+}
+.addon_container{
+    margin-left: 13px;
+    font-size: 0.5em;
+}
+.css-ahj2mt-MuiTypography-root {
+    margin: 0;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 600 !important;
+    font-size: 0.8rem !important;
+    line-height: 0.8 !important;
+    letter-spacing: 0.00938em;
+    color: gray !important;
+}
+.css-10drtbx-MuiButtonBase-root-MuiCheckbox-root {
+    padding: 4px 6px !important;
+}
+/* .add-onsList{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: navy;
+    color: #fff;
+    border-radius: 3px;
+} */
+.removeItem{
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 2px 7px;
+    font-size: 0.8em;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+    height: fit-content !important;
+}
+.removeItem:active{
+    background-color: darkred;
+}

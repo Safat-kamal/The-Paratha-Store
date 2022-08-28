@@ -10,6 +10,6 @@
     object-fit: cover;
 }
 
-#addCartBUtton{
+[data-id="addCartBUtton"]{
     font-weight: 700;
 }

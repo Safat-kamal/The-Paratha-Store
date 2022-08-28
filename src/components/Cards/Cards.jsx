@@ -21,7 +21,7 @@ const Cards = () => {
                     {foodList?.map((food)=>{
                         return (
                             <Grid item xs={12} sm={6} md={6} lg={4} xl={4} key={food.id}>
-                                <FoodCard id={food.id} dish={food.dish} image={food.image} price={food.price}/>
+                                <FoodCard id={food.id} dish={food.dish} image={food.image} price={food.price} addons={food.addons}/>
                             </Grid>
                         )
                     })}

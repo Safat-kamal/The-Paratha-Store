@@ -5,35 +5,40 @@
             "dish":"Plain paratha + Yogurt",
             "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/crebbuhv57vaw3rf1mqp",
             "price":40,
-            "addons":["Extra Sauce"]
+            "addons":["Extra Sauce"],
+            "selectedAddons":[]
         },
         {
             "id":2,
             "dish":"Aalo Paratha",
             "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/livosycxkqebocsfwl1f",
             "price":50,
-            "addons":["Extra Sauce","Yogurt", "Cheese"]
+            "addons":["Extra Sauce","Yogurt","Extra Cheese"],
+            "selectedAddons":[]
         },
         {
             "id":3,
             "dish":"Veg Paratha",
             "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/o97bqlo8mq16l3av8eaw",
             "price":50,
-            "addons":["Corn", "Cabbage", "Fenugreek", "Cheese"]
+            "addons":["Corn","Cabbage","Fenugreek","Extra Cheese"],
+            "selectedAddons":[]
         },
         {
             "id":4,
             "dish":"Double Cheese Paratha",
             "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/jk60tyoeayq83c4nmdea",
             "price":70,
-            "addons":["Extra Sauce","Yogurt", "Corn"]
+            "addons":["Extra Sauce","Yogurt","Corn"],
+            "selectedAddons":[]
         },
         {
             "id":5,
             "dish":"Corn Cheese Paratha",
             "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/s47ipqgwhhrpybi4gyeh",
             "price":80,
-            "addons":["Extra Sauce","Yogurt", "Corn"]
+            "addons":["Extra Sauce","Yogurt","Extra Cheese"],
+            "selectedAddons":[]
         }
     ],
     "Addons":[
